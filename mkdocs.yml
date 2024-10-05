@@ -1,0 +1,54 @@
+site_name: MkDocs S3 Static Website - CodePipeline - Terraform
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+   # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/vlopesmoura
+    - icon: fontawesome/brands/linkedin  
+      link: www.linkedin.com/in/vlopesmoura
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite:
+  - pymdownx.snippets:
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details:
+  - pymdownx.superfences:
+  - pymdownx.mark:
+  - attr_list:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      
+
+copyright: Copyright &copy; 2024 <a href="https://github.com/vlopesmoura" target="_blank" rel="noopener">Vitor Lopes</a>
+# copyright: Copyright &copy; 2016 - 2020 Martin Donath
